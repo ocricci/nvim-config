@@ -1,5 +1,4 @@
 -- vim.opt.guicursor = ""
-
 -- vim.opt.nu = true
 -- vim.opt.relativenumber = true
 vim.opt.number = true
@@ -26,6 +25,7 @@ vim.opt.termguicolors = true
 vim.opt.updatetime = 50
 
 -- vim.opt.colorcolumn = "80"
+-- vim.opt.signcolumn = 'yes'
 
 vim.g.mapleader = " "
 
