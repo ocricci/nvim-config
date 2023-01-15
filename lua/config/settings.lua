@@ -1,22 +1,32 @@
-vim.cmd([[ set encoding=utf8 ]])
-vim.cmd([[ set nu! ]])
-vim.cmd([[ set mouse=a ]])
-vim.cmd([[ set wildmenu ]])
-vim.cmd([[ set confirm ]])
-vim.cmd([[ set incsearch ]])
-vim.cmd([[ set title ]])
-vim.cmd([[ set t_Co=256 ]])
-vim.cmd([[ set shiftwidth=2 ]])
-vim.cmd([[ set softtabstop=2 ]])
-vim.cmd([[ set expandtab ]])
-vim.cmd([[ set shiftwidth=2 ]])
-vim.cmd([[ set softtabstop=2 ]])
-vim.cmd([[ set expandtab ]])
-vim.cmd([[ set guicursor= ]])
--- vim.cmd([[ set cursorline ]])
-vim.cmd([[ syntax on ]])
+-- vim.opt.guicursor = ""
 
-vim.cmd([[ set bg=dark ]])
-vim.cmd([[ set termguicolors ]])
-vim.cmd([[ colorscheme gruvbox ]])
+-- vim.opt.nu = true
+-- vim.opt.relativenumber = true
+vim.opt.number = true
 
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+
+vim.opt.smartindent = true
+
+vim.opt.wrap = false
+
+vim.opt.swapfile = false
+vim.opt.backup = false
+vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+vim.opt.undofile = true
+
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
+
+vim.opt.termguicolors = true
+
+vim.opt.updatetime = 50
+
+-- vim.opt.colorcolumn = "80"
+
+vim.g.mapleader = " "
+
+vim.cmd.colorscheme('gruvbox')
