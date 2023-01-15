@@ -16,3 +16,7 @@ vim.cmd([[ set guicursor= ]])
 -- vim.cmd([[ set cursorline ]])
 vim.cmd([[ syntax on ]])
 
+vim.cmd([[ set bg=dark ]])
+vim.cmd([[ set termguicolors ]])
+vim.cmd([[ colorscheme gruvbox ]])
+
