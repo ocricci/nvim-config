@@ -22,8 +22,8 @@ end)
 
 Then clone the entire repo and install the plugins
 
-:PackerInstall
-:PackerCompile
+`:PackerInstall`
+`:PackerCompile`
 
 To identify startup errors, use:
 
