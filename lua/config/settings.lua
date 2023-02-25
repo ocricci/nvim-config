@@ -30,3 +30,6 @@ vim.opt.updatetime = 50
 vim.g.mapleader = " "
 
 vim.cmd.colorscheme('gruvbox')
+
+-- copilot
+vim.g.copilot_assume_mapped = true
