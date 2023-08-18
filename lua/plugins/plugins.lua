@@ -3,6 +3,8 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function()
     use 'wbthomason/packer.nvim'
     use 'morhetz/gruvbox'
+    use 'junegunn/fzf.vim'
+    use 'junegunn/fzf'
     use {
     'VonHeikemen/lsp-zero.nvim',
         requires = {
