@@ -1,3 +1,10 @@
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
+
+vim.opt.smartcase = true -- smart case
+vim.opt.smartindent = true -- smart indent
+vim.opt.autoindent = true
+
 vim.opt.number = true
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
@@ -14,5 +21,5 @@ vim.opt.hlsearch = false
 vim.opt.incsearch = true
 vim.opt.termguicolors = true
 vim.opt.updatetime = 50
-vim.g.mapleader = " "
+
 vim.g.copilot_assume_mapped = true
